@@ -47,7 +47,7 @@ if uploaded_file is not None:
     st.markdown("<h1 style='text-align: center;'>Unsupervised Learning - Saty</h1>", unsafe_allow_html=True)
     st.dataframe(input_data)
     
-model_path = r'\Unsupervised Learning (Praktek)\Tugas4_A_11907'
+model_path = r'"C:\Users\lenovo\Documents\Machine Learning\Tugas4_A_11907"'
 
 model_paths = {
     "AGG_model": os.path.join(model_path, 'AGG_model.pkl'),
